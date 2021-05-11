@@ -1,0 +1,616 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*===== VARIABLES CSS =====*/
+:root{
+
+  /*===== Colors =====*/
+  --first-color: #FCA4A6;
+  --first-color-dark: #C1576A;
+  --first-color-darken: #A83E51;
+  --white-color: #FCF8F8;
+  
+  /*===== Font and typography =====*/
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background:  #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#A83E51;
+}
+
+body{
+    background: #fca4a6 !important;
+}
+
+main .container{
+    margin-top: 50px !important;
+    background: #e4849573; 
+    border-radius: 50px;
+}
+/* navbar section start */
+
+nav{
+    margin-top: 50px;
+}
+.nav li a{
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav li a:hover{
+    background-color: transparent !important;
+    color:  #C1576A;
+    font-size: 17px;
+}
+.navbar-toggle span i{
+    color: #fff;
+}
+/* fix nav class */
+nav.black{
+    background-color: #c96d7d73 !important;
+}
+
+/* navbar section end */
+
+
+/* home section start */
+.home{
+    margin-bottom: 0px;
+}
+
+/* left side start */
+
+.home .left-side h3{
+    margin-top: 70px;
+    font-size: 55px;
+    color:  #fff;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 10px 10px 10px #A83E51;
+}
+.home .left-side p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #C1576A;
+    font-family: 'Poppins', sans-serif;
+}
+.links{
+    margin-top: 50px;
+}
+.links a i{
+    color: #fff;
+    padding-right:10px ;
+}
+.home .left-side .btn{
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: #fff;
+    background: #C1576A;
+    margin-bottom: 20px;
+}
+.home .left-side .btn:hover{
+    background: transparent;
+    color: #C1576A;
+    border: 2px solid #C1576A;
+}
+
+/* left side end */
+
+/* right side start */
+
+.home .right-side{
+    text-align: center;
+}
+
+.home-data{
+    display: block;
+}
+.home-data img{
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #C1576A;
+    object-fit: cover;    
+}
+ .home-data p{
+   margin-top: 10px;
+   margin-left: 130px;
+   width: 300px;
+   border: 3px solid #C1576A;
+   padding: 20px;
+   justify-items: center;
+}
+
+/* right side end */
+
+.hr-line{
+    margin: 0px 100px;
+}
+
+/* home section end */
+
+/* responsive home section */
+@media (max-width:996px){
+
+    main .container{
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    /* home section */
+    .right-side .home-data{
+        text-align: center;
+    }
+    .home-data p{
+       display: none;
+     }
+}
+
+
+
+/* about section start */
+.about{
+    margin-bottom: 30px;
+}
+.about-title h2{
+    color: #A83E51;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* left side start */
+.about-data{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.about-data h4{
+    font-size: 20px;
+    color: #fff;
+}
+.about-data h4 span{
+    font-size: 18px;
+    color:#C1576A;
+}
+
+/* left side end */
+
+/* right side start */
+.about .right-side{
+    margin-top: 70px;
+}
+.owl-theme .owl-nav {
+    display: none;
+}
+.about-item span i{
+    color: #A83E51;
+}
+.about-item h4{
+    color:#C1576A;
+}
+.about-item p{
+    color: #fff;
+}
+
+/* right side end */
+
+.hr-line{
+    margin: 0px 100px;
+}
+
+/* about section end */
+
+/* responsive about section */
+@media (max-width:996px){
+
+    /* about section */
+
+    .about-data{
+        margin-left: 50px !important;
+    }
+    .about-data h4{
+        font-size: 16px !important;
+    }
+    .about-data h4 span{
+        font-size: 14px !important;
+    }
+    
+}
+@media (max-width:760px){
+
+    /* about section */
+    .about-data{
+        margin-left: 00px !important;
+    }
+    .about-data h4{
+        font-size: 16px !important;
+    }
+    .about-data h4 span{
+        font-size: 14px !important;
+    }
+    
+    
+}
+@media (max-width:400px){
+
+    /* about section */
+
+    .about-data{
+        margin-left: 0px;
+    }
+    .about-data h4{
+        font-size: 16px;
+        color: #fff;
+    }
+    .about-data h4 span{
+        font-size: 14px;
+        color:#C1576A;
+    }
+    
+    
+}
+
+
+
+/* education section start */
+
+.education{
+    margin-bottom: 30px;
+}
+.education-title h2{
+    color: #A83E51;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* left side start */
+
+.education .left-side{
+    margin-left: 100px;
+}
+.education .education-box{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.education .education-box .box{
+    width: 30rem;
+    padding: 0 2rem;
+    padding-bottom: 2rem;
+    border-left: .2rem solid #A83E51;
+}
+.education .education-box .box .year{
+    font-size: 2rem;
+    color:#C1576A;
+    position: relative;
+}
+.education .education-box .box .year::before{
+    content: '';
+    position: absolute;
+    top: 1rem; left: -2.9rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.education .education-box .box h3{
+    font-size: 1.7rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+.education .education-box .box p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+/* left side end */
+
+/* right side start */
+
+.education-progress h3{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.education-progress label{
+    color:#C1576A;
+    font-size: 15px;
+}
+
+.education-progress .progress{
+    height: 5px;
+    border-radius: 20px;   
+}
+
+.education-progress .progress-bar{
+    background-color:#A83E51;
+}
+
+/* skill section */
+
+.education-skills{
+    margin-top: 20px;
+    color: #fff;
+}
+.education-skills .skill-title h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.Skill ul li{
+    margin-top: 10px;
+    list-style-type: none;
+}
+.Skill ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    background:#A83E51;
+}
+
+
+/* right side end */
+
+.hr-line{
+    margin: 0px 100px;
+}
+
+/* education section end */
+
+/* responsive education section */
+@media (max-width:996px){
+
+    /* education section */
+    .education .left-side{
+        margin-left: 50px;
+    }
+}
+
+
+/* contact section start */
+
+.contact{
+    margin-bottom: 30px;
+}
+.contact-title h2{
+    color: #A83E51;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+/* left side start */
+
+.contact .left-side{
+    margin-left: 100px;
+}
+
+.contact-info .contact-item{
+    width: 200px;
+    height: 90px;
+    background:#C1576A;
+    border: 2px solid #C1576A;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.contact-item span i{
+   color:#A83E51;
+   margin-top: 10px;
+   padding-bottom: 10px;
+}
+
+.contact-item a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-item a:hover{
+    color:#A83E51;
+    text-decoration: none;
+}
+
+/* left side end */
+
+/* right side start */
+
+::-webkit-input-placeholder{
+    color: #fff !important;
+    opacity: 1;
+}
+
+.location{
+    margin-top: 20px;
+    width: 502px;
+    height: 202px;
+    border: 3px solid #fff;
+}
+
+.form-data{
+    margin-top: 50px;
+}
+
+.form-group input{
+    margin-bottom: 15px;
+    font-size: 14px;
+    width: 200px;
+    background: transparent;
+    border: 3px solid #A83E51;
+    color: #000;
+}
+
+.form-group textarea{
+    margin-left: 100px;
+    font-size: 14px;
+    width: 200px;
+    background: transparent;
+    border: 3px solid #A83E51;
+    color: #000;
+}
+
+#form-btn{
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+    padding: 3px 15px;
+    font-size: 16px;
+    color:  #fff;
+    transition: .5s;
+    border: 3px solid #A83E51;
+}
+
+#form-btn:hover{
+    padding: 5px 18px;
+    background: #A83E51;
+}
+
+/* right side end */
+
+
+/* contact section end */
+
+/* responsive contact section */
+@media (max-width:996px){
+
+    /* contact section */
+    .location{
+        width: 100%;
+    }
+    .location iframe{
+        width: 100%;
+    }
+    .contact .left-side{
+        margin-left:70px;
+    }
+    .form-group textarea{
+        margin-left: 100px;
+    }
+    
+}
+
+@media (max-width:760px){
+
+    /* contact section */
+
+    .contact .left-side{
+        justify-content: center;
+        margin-left:100px !important;
+    }
+
+    .contact-info .contact-item{
+        width: 450px;
+        height: 120px;
+    }
+    .location{
+        width: 100%;
+    }
+    .location iframe{
+        width: 100%;
+    }
+    .form-group input{
+        width: 100% !important;
+        margin-left:0px !important;
+    }
+    .form-group textarea{
+        width: 100% !important;
+        margin-left:0px !important;
+    }
+    
+}
+
+@media (max-width:400px){
+
+    /* contact section */
+    .contact .left-side{
+        justify-content: center;
+        margin-left: 0px !important;
+    }
+
+    .contact-info .contact-item{
+        width: 100%;
+    }
+    .location{
+        width: 100%;
+    }
+    .location iframe{
+        width: 100%;
+    }
+    .form-group input{
+        width: 100%;
+        margin-left:0px;
+    }
+    .form-group textarea{
+        width: 100%;
+        margin-left:0px;
+    }
+    
+}
+
+
+
+/* scroll section start */
+
+.goTop{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    color:#C1576A;
+    background: transparent;
+    /* animation */
+    animation: flash infinite; 
+    animation-duration: 4s;
+    display: none;
+}
+
+.goTop2{
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    color:#C1576A !important;
+    background: transparent;
+    /* animation */
+    animation: flash infinite; 
+    animation-duration: 4.5s;
+    display: none;
+}
+
+/* scroll section end */
+
+/* responsive scroll section */
+
+@media (max-width:996px){
+
+.scroll-lable{
+    right: 0px;
+}
+.goTop{
+    right: 0px;
+}
+.goTop2{
+    right: 0px;
+}
+
+}
+
+
+
+
+
+
